@@ -15,13 +15,19 @@
 2. Open the GitHub Copilot Chat extension and chain prompts with the following prompts: 
 
   a. Use the /explain command to explain the code --> `/explain the code in diophantine_equation.py`
+  
   b. Ask GitHub Copilot to answer questions about documentation --> `What are the best practices for markdown documentation?`
+  
   c. Create documentation for the diophantine_equation Python program --> `Generate documentation for diophantine_equation.py`
+  
   d. Reprompt GitHub Copilot Chat to add in any missing pieces that were mentioned in 2b
 
   2a. Read through the explanation and see if it matches the explanation of a diophantine equation [here](https://mathworld.wolfram.com/DiophantineEquation.html)
+  
   2b. Take note of the best practices for documentation for future comparison
+  
   2c. Add the documentation into a new file named `diophantine_documentation.md`
+  
   2d. Add the improved documentation into `diophantine_documentation.md`
 
 ### Task 3
