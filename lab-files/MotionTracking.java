@@ -86,7 +86,7 @@ public class MotionTrackingActivity extends Activity {
                     }
                 }
             }
-        });
+        })
     }
 
     private void disconnectTango() {

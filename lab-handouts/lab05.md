@@ -29,10 +29,10 @@ The code uses the Tango service to track the device's motion and render it using
 
 ### Task 2
 
-2. Copy and paste the code in `MotionTracking.java` into GitHub Copilot Chat and prompt it to determine the bugs in the code
+2. Select the code in `MotionTracking.java` into GitHub Copilot Chat and prompt it to determine the bugs in the code
 
 ```
-Are there any bugs in the above code?
+Are there any issues in the selected code?
 ```
 
 3. Determine if Copilot found the same bugs that you did
@@ -43,7 +43,12 @@ Are there any bugs in the above code?
 
   4a. Open `MotionTracking.java`, select all of the code in the file 
   4b. Open inline Copilot Chat by pressing **Ctrl + I**
-  4c. Prompt Copilot to fix the bugs in the code --> `Fix the bugs in the selected code`
+  4c. Prompt Copilot to fix the bugs in the code task by task, with the suggestions provided by GitHub Copilot
+
+  - `Stop the Tango service in the program using the disconnectTango() method`
+  - `Define the mConfig variable in the class`
+  - `Add a semi-colon to initializeTango()`
+  - `Store the Tango object in a class field`
 
 5. Accept each of the suggestions given, ensuring that they address all of the bugs mentioned above
 
