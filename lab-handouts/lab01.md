@@ -4,24 +4,24 @@
 
 ### Task 1
 
-1. Open GitHub Copilot Chat and prompt it to generate test cases for a program that calculates amortization amount per month
-
-**Note, this program has not been written**
-
-```
-Generate test cases for a Python program that calculates the amoritzation amount per month, given: 
-- Principal borrowed
-- Rate of interest per annum
-- Years to repay the loan
-```
-
-2. Prompt Copilot Chat to ask about the directory structure and naming conventions for testing in Python
+1. Prompt Copilot Chat to ask about the directory structure and naming conventions for testing in Python
 
 ```
 What is the directory structure and naming conventions for testing in Python?
 ```
 
   2a. Create the correct directory and file in your codebase for testing
+
+2. Open GitHub Copilot Chat and prompt it to generate test cases for a program that calculates amortization amount per month
+
+**Note, this program has not been written**
+
+```
+Generate 5 test cases for a Python program that calculates the amoritzation amount per month, given: 
+- Principal borrowed
+- Rate of interest per annum
+- Years to repay the loan
+```
 
 3. Add the code from step 1 into your new testing file, ensure this file is named `test_installments.py`
 
@@ -31,7 +31,7 @@ What is the directory structure and naming conventions for testing in Python?
 
 5. Open GitHub Copilot Chat
 
-6. Prompt Copilot Chat to create a program that calculates the amortization amount per month, asking it to think step-by-step
+6. Prompt Copilot Chat to create a program that calculates the amortization amount per month that will pass the tests, asking it to think step-by-step
 
 ```
 Program to calculate the amortization amount per month, given
@@ -43,8 +43,10 @@ Generate code that will pass the tests
 Think step-by-step
 ```
 
+8. Use inline GitHub Copilot to make code quality improvements as needed 
+
 ### Task 3
-7. Review Copilot's rationale for the code, and add it's suggestions into your `equated_monthly_installments.py` file. Your code may look similar to the program below: 
+8. Review Copilot's rationale for the code, and add it's suggestions into your `equated_monthly_installments.py` file. Your code may look similar to the program below: 
 
 ```
 def equated_monthly_installments(
@@ -74,13 +76,9 @@ def equated_monthly_installments(
 
 ### Task 4
 
-8. If your code does not contain a docstring, prompt Copilot to generate one: `Generate a docstring for the above code`
+9. If your code does not contain a docstring, prompt Copilot to generate one: `Generate a docstring for the above code`
 
-9. Add the docstring into your new file
-
-### Task 5
-
-10. Prompt 
+10. Add the docstring into your new file
 
 ### Task 5
 
